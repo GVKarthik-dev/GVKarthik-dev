@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm GVKarthik-dev</h1>
 <h3 align="center">🌟 A passionate backend developer and data scientist from India, building efficient systems and turning data into actionable insights.</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=gvkarthik-dev&label=Profile%20views&color=0e75b6&style=flat" alt="gvkarthik-dev" /> </p>
+<!-- <p align="left"> <img src="https://komarev.com/ghpvc/?username=gvkarthik-dev&label=Profile%20views&color=0e75b6&style=flat" alt="gvkarthik-dev" /> </p> -->
 
 <!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=gvkarthik-dev" alt="gvkarthik-dev" /></a> </p> -->
 
@@ -66,7 +66,9 @@
 <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> 
 </p>
 
-<!-- # 📊 GitHub Stats:
+
+<!-- ---
+ # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=g v karthik&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=g v karthik&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=g v karthik&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact) -->
