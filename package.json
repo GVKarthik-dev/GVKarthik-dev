@@ -2,7 +2,7 @@
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.2.0",
-  "homepage": "https://GVKarthik-dev.github.io/GVKarthik-dev/",
+  "homepage": "https://GVKarthik-dev.github.io/GVKarthik-dev",
   "type": "module",
   "scripts": {
     "dev": "vite",
