@@ -37,7 +37,7 @@ const Contact = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Connect on LinkedIn",
-      href: "https://linkedin.com/in/gvkarthik",
+      href: "https://www.linkedin.com/in/venkata-karthik/",
       color: "text-blue-600",
       bgColor: "bg-blue-600/10"
     },
@@ -45,7 +45,7 @@ const Contact = () => {
       icon: Github,
       label: "GitHub",
       value: "View my repositories",
-      href: "https://github.com/gvkarthik",
+      href: "https://github.com/GVKarthik-dev",
       color: "text-gray-600",
       bgColor: "bg-gray-600/10"
     }
@@ -122,7 +122,7 @@ const Contact = () => {
                   size="lg"
                   variant="outline"
                   className="border-white/30 text-white hover:bg-white/10"
-                  onClick={() => window.open("https://linkedin.com/in/gvkarthik", "_blank")}
+                  onClick={() => window.open("https://www.linkedin.com/in/venkata-karthik/", "_blank")}
                 >
                   <Linkedin className="mr-2 h-5 w-5" />
                   LinkedIn

@@ -30,7 +30,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="text-muted-foreground">
-              © 2024 G V Karthik. Built with React, TypeScript, and Tailwind CSS.
+              © 2025 G V Karthik. Built with React, TypeScript, and Tailwind CSS.
             </p>
             <p className="text-sm text-muted-foreground mt-1">
               Passionate about AI/ML and creating impactful solutions.
@@ -72,7 +72,7 @@ const Footer = () => {
         {/* Bottom text */}
         <div className="text-center mt-8 pt-8 border-t border-border">
           <p className="text-sm text-muted-foreground">
-            Designed and developed with ❤️ using modern web technologies.
+            Designed and developed with ❤️ Passionate about AI/ML.
           </p>
         </div>
       </div>
