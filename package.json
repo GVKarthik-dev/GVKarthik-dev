@@ -12,7 +12,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build -r https://github.com/GVKarthik-dev/GVKarthik-dev.git"
-
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
