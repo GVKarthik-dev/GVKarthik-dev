@@ -1,7 +1,7 @@
 {
   "name": "vite_react_shadcn_ts",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.2.0",
   "homepage": "https://GVKarthik-dev.github.io/GVKarthik-dev/",
   "type": "module",
   "scripts": {
@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build -r https://github.com/GVKarthik-dev/GVKarthik-dev.git"
+
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
