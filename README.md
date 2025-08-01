@@ -14,15 +14,15 @@
 
 <!-- - 👯 I’m looking to collaborate on [Comming Soon](Comming Soon) -->
 
-- 🤝 I’m looking for help with [Comming Soon](Comming Soon)
+<!-- - 🤝 I’m looking for help with [C -->
 
 <!-- - 👨‍💻 All of my projects are available at [someting](someting) -->
 
 - 💬 Ask me about **Python, AI Stuff**
 
-- 📫 How to reach me **venkata.karthik.dev@gmail.com**
+<!-- - 📫 How to reach me **venkata.karthik.dev@gmail.com** -->
 
-- 📄 Know about my experiences [Resume](./Data/Karthik-resume.pdf)
+<!-- - 📄 Know about my experiences [Resume](./Data/Karthik-resume.pdf) -->
 
 - ⚡ Fun fact **I write code like I’m the only one who will ever read it… and then I read it.**
 

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Professional Portfolio Design System - G V Karthik */
+
+@layer base {
+  :root {
+    /* Light mode - Professional, minimal */
+    --background: 0 0% 99%;
+    --foreground: 224 71% 4%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 224 71% 4%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71% 4%;
+
+    --primary: 221 83% 53%;
+    --primary-foreground: 210 40% 98%;
+    --primary-glow: 221 83% 70%;
+    
+    --secondary: 220 14.3% 95.9%;
+    --secondary-foreground: 220.9 39.3% 11%;
+
+    --muted: 220 14.3% 95.9%;
+    --muted-foreground: 220 8.9% 46.1%;
+
+    --accent: 262 83% 58%;
+    --accent-foreground: 210 40% 98%;
+    --accent-glow: 262 83% 75%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 221 83% 53%;
+
+    --radius: 0.75rem;
+
+    /* Portfolio-specific design tokens */
+    --hero-gradient: linear-gradient(135deg, hsl(221 83% 53%), hsl(262 83% 58%));
+    --hero-glow: linear-gradient(135deg, hsl(221 83% 53% / 0.1), hsl(262 83% 58% / 0.1));
+    --card-gradient: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 14.3% 98%));
+    --text-gradient: linear-gradient(135deg, hsl(221 83% 53%), hsl(262 83% 58%));
+    
+    /* Shadows */
+    --shadow-elegant: 0 4px 24px hsl(221 83% 53% / 0.08);
+    --shadow-hover: 0 8px 40px hsl(221 83% 53% / 0.12);
+    --shadow-glow: 0 0 80px hsl(221 83% 53% / 0.3);
+    
+    /* Animation timing */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bouncy: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .dark {
+    /* Dark mode - Professional tech aesthetic */
+    --background: 224 71% 4%;
+    --foreground: 210 40% 98%;
+
+    --card: 224 71% 5%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 224 71% 5%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 221 83% 53%;
+    --primary-foreground: 224 71% 4%;
+    --primary-glow: 221 83% 70%;
+
+    --secondary: 215 27.9% 16.9%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 215 27.9% 16.9%;
+    --muted-foreground: 217.9 10.6% 64.9%;
+
+    --accent: 262 83% 58%;
+    --accent-foreground: 224 71% 4%;
+    --accent-glow: 262 83% 75%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 215 27.9% 16.9%;
+    --input: 215 27.9% 16.9%;
+    --ring: 221 83% 53%;
+
+    /* Dark mode portfolio tokens */
+    --hero-gradient: linear-gradient(135deg, hsl(221 83% 53%), hsl(262 83% 58%));
+    --hero-glow: linear-gradient(135deg, hsl(221 83% 53% / 0.2), hsl(262 83% 58% / 0.2));
+    --card-gradient: linear-gradient(145deg, hsl(224 71% 5%), hsl(215 27.9% 8%));
+    --text-gradient: linear-gradient(135deg, hsl(221 83% 53%), hsl(262 83% 58%));
+    
+    /* Dark shadows */
+    --shadow-elegant: 0 4px 24px hsl(0 0% 0% / 0.4);
+    --shadow-hover: 0 8px 40px hsl(0 0% 0% / 0.6);
+    --shadow-glow: 0 0 80px hsl(221 83% 53% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-muted;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-border rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary/50;
+  }
+
+  /* Text gradient utility */
+  .text-gradient {
+    background: var(--text-gradient);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Glassmorphism effect */
+  .glass {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+}
